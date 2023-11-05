@@ -1,0 +1,109 @@
+/*
+=================================================
+Grid 
+================================================= 
+ */
+ 
+ code {
+    background: rgb(160, 89, 8);
+    color: aliceblue;
+    padding: 24px 0px;
+    display: block;
+    text-align: center;
+    font: 14px/24px "Source Code Pro" Inconsolata;
+}
+body {
+    background: rgba(128, 128, 128, 0.596);
+}
+
+footer {
+     margin-top: 15px;
+}
+.col-1-3,
+.col-2-3 {
+    margin: 0 1%;
+}
+.block-col {
+  background: rgba(78, 65, 65, 0.568);
+}
+
+.col-1-3 {
+    width: 30.67%;
+}
+.col-2-3 {
+    width: 67.32%;
+}
+.col-1-3,
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+}
+.as {
+    margin-left: 0;
+}
+aside code {
+    height: 366px;
+    background: rgba(10, 211, 54, 0.979);
+}
+footer code {
+    height: 30px;
+}
+/* 
+=================================================
+The div Section
+=================================================
+ */
+
+.container {
+    margin-right: 0;
+}
+.container code {
+    background: rgb(164, 228, 36);
+}
+.tap code {
+    background: rgb(216, 202, 8);
+}
+header,
+.mid {
+    margin-bottom: 15px;
+}
+header code,
+.clear code,
+.mid code {
+    height: 80px;
+}
+
+/*
+=================================================
+Mid-col Within the div
+================================================= 
+ */
+ 
+.mid 
+.col-2-3 {
+    margin-left: 0;
+}
+.mid 
+.col-1-3 {
+    margin-right: 0;
+}
+
+/*
+=================================================
+Bottom- Within the div
+================================================= 
+ */
+
+ .co-1-3 {
+    margin: 0 1%;
+    display: inline-block;
+    width: 32%;
+ }
+ .clear 
+ .third {
+    margin-right: 0;
+ }
+ .clear 
+ .first {
+    margin-left: 0;
+ }

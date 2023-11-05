@@ -1,0 +1,88 @@
+
+/*
+=====================================
+Grid 
+===================================== 
+ */
+
+ code {
+    background: green;
+    color: aliceblue;
+    padding: 24px 15px;
+    display: block;
+    text-align: center;
+    font: 14px/24px "Source Code Pro" Inconsolata;
+}
+.team,
+aside,
+header {
+    margin: 0 0 1% 0;
+}
+.port {
+    height: 40px;
+}
+body {
+    background-color: grey;
+}
+
+/* 
+=====================================
+Aside
+=====================================
+*/
+
+aside {
+    float: left;
+    width: 20%;
+}
+aside code {
+    height: 300px;
+    background: rgb(18, 18, 168);
+}
+
+/*
+====================================
+ Team
+==================================== 
+ */
+
+.team {
+    float: right;
+    width: 79%;
+    background: red
+}
+.grip {
+    height: 500px;
+}
+.grip section {
+    display: block;
+    float: left;
+    width: 30%;
+}
+.team .grip 
+section code {
+    background: yellow;
+    color: black;
+    height: 250px;
+}
+section,
+footer {
+    margin: 6px 1% 1% 1%;
+    
+}
+
+/*
+======================================
+Footer
+======================================
+*/
+
+footer {
+    clear: left;
+    width: 94%;   
+}
+footer code {
+    background: purple;
+    height: 40px;
+}
+ 
